@@ -1,7 +1,7 @@
 package me.sedattr.auctionsapi;
 
 import me.sedattr.deluxeauctions.DeluxeAuctions;
-import me.sedattr.deluxeauctions.cache.CategoryCache;
+import me.sedattr.auctionsapi.cache.CategoryCache;
 import me.sedattr.deluxeauctions.managers.Auction;
 import me.sedattr.deluxeauctions.managers.AuctionType;
 import me.sedattr.deluxeauctions.managers.Category;
