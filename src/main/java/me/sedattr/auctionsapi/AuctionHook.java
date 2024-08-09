@@ -27,6 +27,8 @@ public class AuctionHook {
     private static final int MAX_AUCTION = 100;
 
     public static boolean isAuctionTypeDisabled(String type) {
+        if (type == null || type.isEmpty())
+            return false;
         if (!type.equalsIgnoreCase("bin") && !type.equalsIgnoreCase("normal"))
             return false;
 
